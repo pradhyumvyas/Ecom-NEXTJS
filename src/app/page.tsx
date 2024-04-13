@@ -3,6 +3,7 @@ import FeaturedSection from "@/components/FeaturedSection";
 import Image from "next/image";
 import WhyChooseUsSection from "@/components/WhyChooseUsSection";
 import TestimonialCards from "@/components/TestimonialCards";
+import UpcomingWebinar from "@/components/UpcomingWebinar";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <FeaturedSection />
       <WhyChooseUsSection />
       <TestimonialCards />
+      <UpcomingWebinar />
     </main>
     
   );
