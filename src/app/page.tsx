@@ -2,6 +2,7 @@ import Herosection from "@/components/Herosection";
 import FeaturedSection from "@/components/FeaturedSection";
 import Image from "next/image";
 import WhyChooseUsSection from "@/components/WhyChooseUsSection";
+import TestimonialCards from "@/components/TestimonialCards";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Herosection />
       <FeaturedSection />
       <WhyChooseUsSection />
+      <TestimonialCards />
     </main>
     
   );
