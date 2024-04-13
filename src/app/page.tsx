@@ -1,6 +1,7 @@
 import Herosection from "@/components/Herosection";
 import FeaturedSection from "@/components/FeaturedSection";
 import Image from "next/image";
+import WhyChooseUsSection from "@/components/WhyChooseUsSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       {/* <div className="text-2xl text-center">Music Courses</div> */}
       <Herosection />
       <FeaturedSection />
+      <WhyChooseUsSection />
     </main>
     
   );
