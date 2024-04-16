@@ -16,7 +16,7 @@ interface courseDataType {
   isFeatured: boolean;
   image: string;
 }
-function page() {
+function Page() {
 
   const [courses, setCourse] = useState(courseData.courses)
   const filterCourses =(e:string)=>{
@@ -91,4 +91,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
