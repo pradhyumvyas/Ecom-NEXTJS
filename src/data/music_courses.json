@@ -1,105 +1,225 @@
 {
-   "courses": [
-     {
-       "id": 1,
-       "title": "Guitar Fundamentals",
-       "slug": "guitar-fundamentals",
-       "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
-       "price": 99.99,
-       "instructor": "John Doe",
-       "isFeatured": true,
-       "image": "/courses/guitar.jpg" 
-     },
-     {
-       "id": 2,
-       "title": "Piano for Beginners",
-       "slug": "piano-for-beginners",
-       "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
-       "price": 109.99,
-       "instructor": "Jane Smith",
-       "isFeatured": false,
-       "image": "/courses/piano.jpg" 
-     },
-     {
-       "id": 3,
-       "title": "Advanced Vocal Techniques",
-       "slug": "advanced-vocal-techniques",
-       "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
-       "price": 119.99,
-       "instructor": "Emily Johnson",
-       "isFeatured": true,
-       "image": "/courses/vocalist.jpg" 
-     },
-     {
-       "id": 4,
-       "title": "Drumming Mastery",
-       "slug": "drumming-mastery",
-       "description": "Master the drums with our comprehensive course covering all skill levels.",
-       "price": 129.99,
-       "instructor": "Mike Brown",
-       "isFeatured": false,
-       "image": "/courses/drumming.jpg"
-     },
-     {
-       "id": 5,
-       "title": "Jazz Improvisation",
-       "slug": "jazz-improvisation",
-       "description": "Learn the art of jazz improvisation with this course designed for all levels.",
-       "price": 139.99,
-       "instructor": "Chris Davis",
-       "isFeatured": false,
-       "image": "/courses/jazz.jpg"
-     },
-     {
-       "id": 6,
-       "title": "Music Production Fundamentals",
-       "slug": "music-production-fundamentals",
-       "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
-       "price": 149.99,
-       "instructor": "Alex Wilson",
-       "isFeatured": true,
-       "image": "/courses/music-prod.jpg"
-     },
-     {
-       "id": 7,
-       "title": "Songwriting Essentials",
-       "slug": "songwriting-essentials",
-       "description": "Learn the essentials of songwriting to express your musical creativity.",
-       "price": 159.99,
-       "instructor": "Samantha Miller",
-       "isFeatured": false,
-       "image": "/courses/song-writing.jpg"
-     },
-     {
-       "id": 8,
-       "title": "Electronic Music Production",
-       "slug": "electronic-music-production",
-       "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
-       "price": 169.99,
-       "instructor": "Luke Harris",
-       "isFeatured": true,
-       "image": "/courses/music-prod.jpg"
-     },
-     {
-       "id": 9,
-       "title": "Classical Music History",
-       "slug": "classical-music-history",
-       "description": "Explore the rich history of classical music from its origins to the present day.",
-       "price": 179.99,
-       "instructor": "Grace Lee",
-       "isFeatured": false,
-       "image": "/courses/classical-music.jpg"
-     },
-     {
-       "id": 10,
-       "title": "Blues Guitar Techniques",
-       "slug": "blues-guitar-techniques",
-       "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
-       "price": 189.99,
-       "instructor": "Ethan Moore",
-       "isFeatured": true,
-       "image": "/courses/blues.jpg"
-     }
-   ]
+   "courses":[
+    {
+      "id": 1,
+      "title": "Piano Fundamentals",
+      "slug": "piano-fundamentals",
+      "description": "Learn the basics of playing piano, from reading sheet music to mastering scales and chords.",
+      "price": 49.99,
+      "instructor": "John Smith",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?piano,fundamentals",
+      "category": "Music-Theory"
+    },
+    {
+      "id": 2,
+      "title": "Guitar Techniques",
+      "slug": "guitar-techniques",
+      "description": "Explore various guitar techniques such as fingerpicking, strumming patterns, and soloing.",
+      "price": 59.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": false,
+      "image": "https://source.unsplash.com/featured/?guitar,techniques",
+      "category": "Music-Theory"
+    },
+    {
+      "id": 3,
+      "title": "Music Theory Essentials",
+      "slug": "music-theory-essentials",
+      "description": "Dive into the fundamentals of music theory, including scales, intervals, and chord progressions.",
+      "price": 39.99,
+      "instructor": "Michael Davis",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?music,theory,essentials",
+      "category": "Music-Theory"
+    },
+    {
+      "id": 4,
+      "title": "Advanced Jazz Composition",
+      "slug": "advanced-jazz-composition",
+      "description": "Master the art of jazz composition with advanced techniques and improvisation.",
+      "price": 79.99,
+      "instructor": "Sophia Lee",
+      "isFeatured": false,
+      "image": "https://source.unsplash.com/featured/?advanced,jazz,composition",
+      "category": "Advanced-Composition"
+    },
+    {
+      "id": 5,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Learn how to produce electronic music using digital audio workstations (DAWs) and synthesizers.",
+      "price": 69.99,
+      "instructor": "David Martinez",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?electronic,music,production",
+      "category": "Music-Production"
+    },
+    {
+      "id": 6,
+      "title": "Bass Guitar Fundamentals",
+      "slug": "bass-guitar-fundamentals",
+      "description": "Master the basics of playing the bass guitar, from technique to groove and rhythm.",
+      "price": 54.99,
+      "instructor": "Alex Johnson",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?bass,guitar,fundamentals",
+      "category": "Music-Theory"
+    },
+    {
+      "id": 7,
+      "title": "Classical Music Appreciation",
+      "slug": "classical-music-appreciation",
+      "description": "Explore the history and significance of classical music through key composers and compositions.",
+      "price": 34.99,
+      "instructor": "Olivia Brown",
+      "isFeatured": false,
+      "image": "https://source.unsplash.com/featured/?classical,music,appreciation",
+      "category": "Music-Theory"
+    },
+    {
+      "id": 8,
+      "title": "Songwriting Workshop",
+      "slug": "songwriting-workshop",
+      "description": "Discover the art of songwriting, from lyrics to melody, and create your own original songs.",
+      "price": 49.99,
+      "instructor": "Daniel Wright",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?songwriting,workshop",
+      "category": "Advanced-Composition"
+    },
+    {
+      "id": 9,
+      "title": "Introduction to Music Production",
+      "slug": "introduction-to-music-production",
+      "description": "Get started with music production using basic recording techniques and software.",
+      "price": 29.99,
+      "instructor": "Sophie Clark",
+      "isFeatured": false,
+      "image": "https://source.unsplash.com/featured/?introduction,to,music,production",
+      "category": "Music-Production"
+    },
+    {
+      "id": 10,
+      "title": "Drumming Basics",
+      "slug": "drumming-basics",
+      "description": "Learn the fundamentals of drumming, including rhythm, beats, and fills.",
+      "price": 44.99,
+      "instructor": "James Wilson",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?drumming,basics",
+      "category": "Music-Theory"
+    },
+    {
+      "id": 11,
+      "title": "Orchestration Techniques",
+      "slug": "orchestration-techniques",
+      "description": "Explore orchestration techniques for arranging music for various instruments and ensembles.",
+      "price": 69.99,
+      "instructor": "Maria Garcia",
+      "isFeatured": false,
+      "image": "https://source.unsplash.com/featured/?orchestration,techniques",
+      "category": "Advanced-Composition"
+    },
+    {
+      "id": 12,
+      "title": "DJ Mixing and Remixing",
+      "slug": "dj-mixing-and-remixing",
+      "description": "Learn how to mix and remix music like a DJ, using turntables, mixers, and digital software.",
+      "price": 59.99,
+      "instructor": "Max Roberts",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?dj,mixing,remixing",
+      "category": "Music-Production"
+    },
+    {
+      "id": 13,
+      "title": "Singing Techniques",
+      "slug": "singing-techniques",
+      "description": "Improve your singing skills with lessons on vocal techniques, breathing, and performance.",
+      "price": 39.99,
+      "instructor": "Emma White",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?singing,techniques",
+      "category": "Music-Theory"
+    },
+    {
+      "id": 14,
+      "title": "Film Scoring Fundamentals",
+      "slug": "film-scoring-fundamentals",
+      "description": "Learn the basics of composing music for film, including synchronization and emotional impact.",
+      "price": 74.99,
+      "instructor": "Liam Johnson",
+      "isFeatured": false,
+      "image": "https://source.unsplash.com/featured/?film,scoring,fundamentals",
+      "category": "Advanced-Composition"
+    },
+    {
+      "id": 15,
+      "title": "Audio Engineering Basics",
+      "slug": "audio-engineering-basics",
+      "description": "Get an introduction to audio engineering, including recording, mixing, and mastering techniques.",
+      "price": 49.99,
+      "instructor": "Nathan Thompson",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?audio,engineering,basics",
+      "category": "Music-Production"
+    },
+    {
+      "id": 16,
+      "title": "Music Business Essentials",
+      "slug": "music-business-essentials",
+      "description": "Learn the fundamentals of the music business, including copyright, contracts, and marketing.",
+      "price": 59.99,
+      "instructor": "Sarah Brown",
+      "isFeatured": false,
+      "image": "https://source.unsplash.com/featured/?music,business,essentials",
+      "category": "Music-Theory"
+    },
+    {
+      "id": 17,
+      "title": "Harmony and Counterpoint",
+      "slug": "harmony-and-counterpoint",
+      "description": "Study the principles of harmony and counterpoint in music composition.",
+      "price": 69.99,
+      "instructor": "Jason Adams",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?harmony,counterpoint",
+      "category": "Advanced-Composition"
+    },
+    {
+      "id": 18,
+      "title": "Mixing and Mastering Techniques",
+      "slug": "mixing-and-mastering-techniques",
+      "description": "Explore advanced techniques for mixing and mastering music for professional quality.",
+      "price": 79.99,
+      "instructor": "Rachel Taylor",
+      "isFeatured": false,
+      "image": "https://source.unsplash.com/featured/?mixing,mastering,techniques",
+      "category": "Music-Production"
+    },
+    {
+      "id": 19,
+      "title": "Experimental Music Composition",
+      "slug": "experimental-music-composition",
+      "description": "Push the boundaries of music composition with experimental techniques and concepts.",
+      "price": 89.99,
+      "instructor": "Chris Anderson",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?experimental,music,composition",
+      "category": "Advanced-Composition"
+    },
+    {
+      "id": 20,
+      "title": "Introduction to Music Theory",
+      "slug": "introduction-to-music-theory",
+      "description": "Get started with the basics of music theory, including notes, scales, and intervals.",
+      "price": 29.99,
+      "instructor": "Eva Martinez",
+      "isFeatured": true,
+      "image": "https://source.unsplash.com/featured/?introduction,to,music,theory",
+      "category": "Music-Theory"
+    }
+  ]  
  }
  
